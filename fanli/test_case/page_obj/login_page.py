@@ -13,7 +13,7 @@ class LoginPage(Page):
 
     def __init__(self, driver):
         self.url = 'https://passport.fanli.com/login?spm=passport_login.pc.https'
-        Page.__init__(self, self.url, driver)
+        super(LoginPage, self).__init__(self.url, driver)
     username_by_key = (By.ID, 'username')
     password_by_key = (By.ID, 'psw')
     verify_code_by_key = (By.ID, 'passcode')
