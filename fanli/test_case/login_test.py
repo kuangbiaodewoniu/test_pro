@@ -17,7 +17,7 @@ from time import sleep
 
 class LoginTest(my_unit.MyUnit):
 
-    def login_util(self, username='username', password='password'):
+    def login_util(self, username='liulovedan', password='2wsx3edc'):
         login_page.LoginPage(self.driver).user_login(username, password)
 
     # 用户名密码正确

@@ -40,7 +40,7 @@ class LoginPage(Page):
         self.open()
         self.input_username(username)
         self.input_password(password)
-        self.input_verify_code(code)
+        # self.input_verify_code(code)
         self.click_btn_login()
 
 
